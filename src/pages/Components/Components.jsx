@@ -36,7 +36,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Aussie Green Klean"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -46,15 +46,16 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/bg9.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>Book Online Today</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    Naturally Cleaning Your Home
                   </h3>
+                  <Button className={classes.bookbtn} type="button" color="primary" size= "lg" round>Book Now</Button>
                 </div>
               </GridItem>
             </GridContainer>

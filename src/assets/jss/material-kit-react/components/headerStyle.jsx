@@ -54,10 +54,11 @@ const headerStyle = {
   title: {
     ...defaultFont,
     lineHeight: "30px",
+    fontWeight: 500,
     fontSize: "18px",
     borderRadius: "3px",
     textTransform: "none",
-    color: "inherit",
+    color: primaryColor,
     padding: "8px 16px",
     "&:hover,&:focus": {
       color: "inherit",
