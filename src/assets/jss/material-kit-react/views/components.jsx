@@ -3,8 +3,9 @@ import { container } from "assets/jss/material-kit-react.jsx";
 const componentsStyle = {
   container,
   brand: {
-    color: "#1b685f",
-    textAlign: "left"
+    color: "#2F4F4F",
+    textAlign: "left",
+    maxWidth: "50%"
   },
   title: {
     fontSize: "4rem",
@@ -37,6 +38,12 @@ const componentsStyle = {
   },
   textCenter: {
     textAlign: "center"
+  },
+  koalaImg: {
+    height: "100px",
+    position: "absolute",
+    top: "-5rem",
+    left: "25%"
   }
 };
 

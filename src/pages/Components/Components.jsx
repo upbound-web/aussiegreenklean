@@ -28,6 +28,9 @@ import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
+//images
+import koala from "assets/img/agkkoala.png"
+
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -51,6 +54,9 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
+                  <img 
+                    src={koala}
+                    className={classes.imgFluid + " " + classes.koalaImg} />  
                   <h1 className={classes.title}>Book Online Today</h1>
                   <h3 className={classes.subtitle}>
                     Naturally Cleaning Your Home
