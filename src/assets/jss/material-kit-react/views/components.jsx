@@ -7,11 +7,21 @@ const componentsStyle = {
     textAlign: "left",
     maxWidth: "50%"
   },
+  '@media (max-width: 700px)':{
+    brand:{
+      maxWidth: "100%"
+    }
+  },
   title: {
     fontSize: "4rem",
     fontWeight: "600",
     display: "inline-block",
     position: "relative"
+  },
+  '@media (max-width: 700px)':{
+    title:{
+      fontSize: "2.5rem"
+    }
   },
   subtitle: {
     fontSize: "1.313rem",
