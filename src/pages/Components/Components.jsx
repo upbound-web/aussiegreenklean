@@ -27,6 +27,8 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
 import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
+import AboutUs from "./Sections/AboutUs.jsx"
+import Services from "./Sections/Services.jsx"
 
 //images
 import koala from "assets/img/agkkoala.png"
@@ -56,6 +58,7 @@ class Components extends React.Component {
                 <div className={classes.brand}>
                   <img 
                     src={koala}
+                    alt="koala"
                     className={classes.imgFluid + " " + classes.koalaImg} />  
                   <h1 className={classes.title}>Book Online Today</h1>
                   <h3 className={classes.subtitle}>
@@ -69,6 +72,8 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
+          <AboutUs />
+          <Services />
           <SectionBasics />
           <SectionNavbars />
           <SectionTabs />

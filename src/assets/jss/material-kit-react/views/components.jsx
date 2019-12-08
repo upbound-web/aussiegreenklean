@@ -8,12 +8,12 @@ const componentsStyle = {
     maxWidth: "50%"
   },
   title: {
-    fontSize: "4rem",
+    fontSize: "3.3125rem",
     fontWeight: "600",
     display: "inline-block",
     position: "relative"
   },
-  '@media (max-width: 700px)':{
+  '@media (max-width: 768px)':{
     title:{
       fontSize: "2.5rem"
     },
