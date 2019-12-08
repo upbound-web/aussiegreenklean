@@ -35,7 +35,7 @@ class AboutUs extends React.Component {
                                 <p>Here at Aussie Green Klean there are few things that we are passionate about. Customer service and all natural cleaning products. We are now accepting bookings online, all you need to do is lift a finger. We offer all ranges of cleans from residential home to large commercial jobs</p>
                             </div>
                             <div className={classes.buttonscont}>
-                                <Button color="primary" round>Book Resedential</Button>
+                                <Button color="primary" round>Book Residential</Button>
                                 <Button color="info" round>Contact Commercial</Button>
                             </div>
                         </GridItem>

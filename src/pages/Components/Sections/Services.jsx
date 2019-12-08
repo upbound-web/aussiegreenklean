@@ -25,7 +25,7 @@ class Services extends React.Component {
                                 <p>We offer lots of services. Ironing washing cleaning. Pretty much anything that you don't wanna do i will do for you.</p>
                             </div>
                             <div className={classes.buttonscont}>
-                                <Button color="primary" round>Book Resedential</Button>
+                                <Button color="primary" round>Book Residential</Button>
                                 <Button color="info" round>Contact Commercial</Button>
                             </div>
                         </GridItem>
