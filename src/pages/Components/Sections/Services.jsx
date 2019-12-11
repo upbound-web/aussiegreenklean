@@ -2,13 +2,13 @@ import React from "react";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+//import GridContainer from "components/Grid/GridContainer.jsx";
+//import GridItem from "components/Grid/GridItem.jsx";
+//import Button from "components/CustomButtons/Button.jsx";
 //individual jss
 import servicesStyle from "assets/jss/material-kit-react/views/componentsSections/servicesStyle.jsx";
 //images
-import vacCleaner from "assets/img/vac_cleaner.png"
+import cleaningImg from "assets/img/cleaning.jpg"
 
 class Services extends React.Component {
     render() {
@@ -16,31 +16,64 @@ class Services extends React.Component {
         return (
             <div className={classes.sections}>
                 <div className={classes.container}>
-                    <GridContainer alignItems="center">
-                         <GridItem sm={6}>
-                            <div className={classes.text}>
-                                <div className={classes.title}>
-                                    <h2>Services</h2>
+                    <div className={classes.cardContainer}>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={cleaningImg} 
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Header</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
                                 </div>
-                                <p>We offer lots of services. Ironing washing cleaning. Pretty much anything that you don't wanna do i will do for you.</p>
                             </div>
-                            <div className={classes.buttonscont}>
-                                <Button color="primary" round>Book Residential</Button>
-                                <Button color="info" round>Contact Commercial</Button>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={cleaningImg} 
+                                    alt="services1"
+                                />
                             </div>
-                        </GridItem>
-                        <GridItem sm={6}>
-                            <img
-                                src={vacCleaner}
-                                alt="vacum cleaner"
-                                className={
-                                    classes.imgFluid + " " +
-                                    classes.widthimg
-                                }
-                            />
-                        </GridItem>
-
-                    </GridContainer>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Header</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={cleaningImg} 
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Header</h2>
+                                    <p>We offer lots of services they include x, y and z. What are your thoughts can you do it?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={cleaningImg} 
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Header</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
