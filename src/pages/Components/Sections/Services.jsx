@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 //individual jss
 import servicesStyle from "assets/jss/material-kit-react/views/componentsSections/servicesStyle.jsx";
 //images
-import cleaningImg from "assets/img/cleaning.jpg"
+import cleaningImg from "assets/img/clean.jpg"
 
 class Services extends React.Component {
     render() {
