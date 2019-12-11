@@ -26,7 +26,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Residential Cleaning</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Lorem ipsum dolor, sat amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
                                 </div>
                             </div>
                         </div>
