@@ -85,7 +85,7 @@ const aboutUsStyle = {
         card:{
             flexDirection: "column",
             maxWidth: "350px",
-            margin: "25px 25px",
+            margin: "25px 0px",
             '&:nth-child(even)':{
                 '& $imgbx':{
                     left: "0px"
