@@ -1,4 +1,3 @@
-import { container } from "assets/jss/material-kit-react.jsx";
 
 const aboutUsStyle = {
     sections: {

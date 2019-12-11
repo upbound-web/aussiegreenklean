@@ -26,7 +26,7 @@ class Services extends React.Component {
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Header</h2>
+                                    <h2>Residential Cleaning</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ class Services extends React.Component {
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Header</h2>
+                                    <h2>Builders Clean</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ class Services extends React.Component {
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Header</h2>
+                                    <h2>Ironing and Washing</h2>
                                     <p>We offer lots of services they include x, y and z. What are your thoughts can you do it?</p>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ class Services extends React.Component {
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Header</h2>
+                                    <h2>Commercial Cleaning</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
                                 </div>
                             </div>
