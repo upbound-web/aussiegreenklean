@@ -15,7 +15,6 @@ class Services extends React.Component {
         const { classes } = this.props;
         return (
             <div className={classes.sections}>
-                <div className={classes.container}>
                     <div className={classes.cardContainer}>
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
@@ -74,7 +73,6 @@ class Services extends React.Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         );
     }
