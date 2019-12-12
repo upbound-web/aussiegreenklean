@@ -6,6 +6,8 @@ import { Link } from "gatsby";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
+//facebook chat
+import MessengerCustomerChat from "react-messenger-customer-chat";
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -95,6 +97,12 @@ class Components extends React.Component {
           <SectionDownload />
         </div>
         <Footer />
+        <div>
+          <MessengerCustomerChat
+            pageId="1089826211076305"
+            appId="263902037430900"
+          />
+        </div>
       </div>
     );
   }
