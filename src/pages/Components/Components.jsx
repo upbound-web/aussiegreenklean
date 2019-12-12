@@ -76,6 +76,7 @@ class Components extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <AboutUs />
           <Services />
+          <contactUs />
           <SectionBasics />
           <SectionNavbars />
           <SectionTabs />

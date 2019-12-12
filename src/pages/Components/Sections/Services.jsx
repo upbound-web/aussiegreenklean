@@ -9,6 +9,9 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import servicesStyle from "assets/jss/material-kit-react/views/componentsSections/servicesStyle.jsx";
 //images
 import cleaningImg from "assets/img/clean.jpg"
+import residentialImg from "assets/img/residential_clean.jpg"
+import commercialImg from "assets/img/commercial_clean.jpg"
+
 
 class Services extends React.Component {
     render() {
@@ -19,8 +22,8 @@ class Services extends React.Component {
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={cleaningImg} 
-                                    alt="services1"
+                                    src={residentialImg} 
+                                    alt="Residential Clean"
                                 />
                             </div>
                             <div className={classes.contentbx}>
@@ -33,7 +36,7 @@ class Services extends React.Component {
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={cleaningImg} 
+                                    src={commercialImg} 
                                     alt="services1"
                                 />
                             </div>

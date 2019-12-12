@@ -8,7 +8,7 @@ import Button from "components/CustomButtons/Button.jsx";
 //individual jss
 import aboutUsStyle from "assets/jss/material-kit-react/views/componentsSections/aboutUsStyle.jsx";
 //images
-import vacCleaner from "assets/img/vac_cleaner.png"
+import aussieLogo from "assets/img/aussie_logo.png"
 
 class AboutUs extends React.Component {
     render() {
@@ -19,8 +19,8 @@ class AboutUs extends React.Component {
                     <GridContainer alignItems="center">
                         <GridItem sm={6}>
                             <img
-                                src={vacCleaner}
-                                alt="vacum cleaner"
+                                src={aussieLogo}
+                                alt="Aussie Green Klean logo"
                                 className={
                                     classes.imgFluid + " " +
                                     classes.widthimg
