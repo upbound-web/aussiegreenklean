@@ -74,7 +74,8 @@ const aboutUsStyle = {
     content: {
         color: "#fff",
         '& h2': {
-
+            marginTop: "0px",
+            lineHeight: "1em"
         },
         '& p': {
             marginTop: "10px"
@@ -82,11 +83,17 @@ const aboutUsStyle = {
         }
     },
     '@media (max-width: 1063px)':{
+        cardContainer:{
+            alignItems: "normal",
+            justifyContent: "space-around"
+        },
         card:{
             flexDirection: "column",
             maxWidth: "350px",
+            height: "auto",
             margin: "25px 0px",
             '&:nth-child(even)':{
+                flexDirection:"column",
                 '& $imgbx':{
                     left: "0px"
                 },
@@ -94,6 +101,9 @@ const aboutUsStyle = {
                     right: "0",
                     padding: "30px"
                 }
+            },
+            '&:nth-child(odd)':{
+                flexDirection: "column"
             }
         },
         imgbx:{
@@ -103,6 +113,7 @@ const aboutUsStyle = {
         },
         contentbx:{
             width:"100%",
+            flex: "1",
             height: "100%",
             right: "0",
             padding: "30px",
