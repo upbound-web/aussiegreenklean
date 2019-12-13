@@ -13,7 +13,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import { Apps, CloudDownload } from "@material-ui/icons";
 
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 // core components
 import Button from "components/CustomButtons/Button.jsx";

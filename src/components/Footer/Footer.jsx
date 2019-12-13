@@ -8,6 +8,8 @@ import { List, ListItem, withStyles } from "@material-ui/core";
 
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
+import { FaFacebook } from 'react-icons/fa';
+import { GiKoala } from 'react-icons/gi';
 
 import footerStyle from "assets/jss/material-kit-react/components/footerStyle.jsx";
 
@@ -28,20 +30,19 @@ function Footer({ ...props }) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/"
+                href="https://www.upbound.com.au"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+              Web Design: Upbound
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation"
+                href="/"
                 className={classes.block}
-                target="_blank"
               >
-                About us
+                Home
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -50,31 +51,13 @@ function Footer({ ...props }) {
                 className={classes.block}
                 target="_blank"
               >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
+                <FaFacebook />
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.creative-tim.com"
-            className={aClasses}
-            target="_blank"
-          >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+          &copy; {1900 + new Date().getYear()} , Aussie Green Klean{" "} <GiKoala />
         </div>
       </div>
     </footer>
