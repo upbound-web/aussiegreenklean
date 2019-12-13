@@ -274,6 +274,10 @@ const buttonStyle = {
   block: {
     width: "100% !important"
   },
+  outline:{
+    border: "2px solid white",
+    borderRadius: "0.2rem"
+  },
   link: {
     "&,&:hover,&:focus": {
       backgroundColor: "transparent",

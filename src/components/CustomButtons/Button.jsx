@@ -25,6 +25,7 @@ function RegularButton({ ...props }) {
     block,
     link,
     justIcon,
+    outline,
     className,
     ...rest
   } = props;
@@ -39,6 +40,7 @@ function RegularButton({ ...props }) {
     [classes.block]: block,
     [classes.link]: link,
     [classes.justIcon]: justIcon,
+    [classes.outline]: outline,
     [className]: className
   });
   return (
@@ -71,7 +73,8 @@ RegularButton.propTypes = {
   disabled: PropTypes.bool,
   block: PropTypes.bool,
   link: PropTypes.bool,
-  justIcon: PropTypes.bool
+  justIcon: PropTypes.bool,
+  outline: PropTypes.bool
 };
 
 export default withStyles(buttonStyle)(RegularButton);
