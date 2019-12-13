@@ -2,7 +2,7 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 
 const aboutUsStyle = {
     sections: {
-        paddingTop: "25px"
+        paddingTop: "100px"
     },
     container,
     title: {

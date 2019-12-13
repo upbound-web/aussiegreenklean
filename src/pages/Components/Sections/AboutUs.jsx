@@ -14,7 +14,7 @@ class AboutUs extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <div className={classes.sections}>
+            <div className={classes.sections} id="aboutus">
                 <div className={classes.container}>
                     <GridContainer alignItems="center">
                         <GridItem sm={6}>
@@ -35,7 +35,7 @@ class AboutUs extends React.Component {
                                 <p>Here at Aussie Green Klean there are few things that we are passionate about. Customer service and all natural cleaning products. We are now accepting bookings online, all you need to do is lift a finger. We offer all ranges of cleans from residential home to large commercial jobs</p>
                             </div>
                             <div className={classes.buttonscont}>
-                                <Button color="primary" round>Book Residential</Button>
+                                <Button color="primary" round href="#contact">Book Residential</Button>
                                 <Button color="info" round>Contact Commercial</Button>
                             </div>
                         </GridItem>

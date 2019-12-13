@@ -11,13 +11,14 @@ import servicesStyle from "assets/jss/material-kit-react/views/componentsSection
 import cleaningImg from "assets/img/clean.jpg"
 import residentialImg from "assets/img/residential_clean.jpg"
 import commercialImg from "assets/img/commercial_clean.jpg"
+import ironing from "assets/img/washing_clean.jpg"
 
 
 class Services extends React.Component {
     render() {
         const { classes } = this.props;
         return (
-            <div className={classes.sections}>
+            <div className={classes.sections} id="services">
                     <div className={classes.cardContainer}>
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
@@ -50,7 +51,7 @@ class Services extends React.Component {
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={cleaningImg} 
+                                    src={ironing} 
                                     alt="services1"
                                 />
                             </div>

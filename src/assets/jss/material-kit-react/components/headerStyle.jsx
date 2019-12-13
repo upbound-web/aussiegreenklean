@@ -58,7 +58,7 @@ const headerStyle = {
     fontSize: "18px",
     borderRadius: "3px",
     textTransform: "none",
-    color: primaryColor,
+    color: "#FFF",
     padding: "8px 16px",
     "&:hover,&:focus": {
       color: "inherit",

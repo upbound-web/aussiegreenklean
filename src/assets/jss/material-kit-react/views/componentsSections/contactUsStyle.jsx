@@ -1,18 +1,15 @@
 import { title } from "assets/jss/material-kit-react.jsx";
+import { container } from "assets/jss/material-kit-react.jsx";
 
-import background from "assets/img/residential_clean.jpg"
+//import backgroundimg from "assets/img/residential_clean.jpg"
 //import zIndex from "@material-ui/core/styles/zIndex";
 
 const workStyle = {
   section: {
-    padding: "70px 0",
-    '&:before':{
-    backgroundImage: "url(" + background +")",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    filter: "blur(8px)"
-    }
+    padding: "100px 0",
+    background: "#EEE"
   },
+  container,
   title: {
     ...title,
     marginBottom: "50px",
