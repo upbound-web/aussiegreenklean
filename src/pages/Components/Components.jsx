@@ -67,7 +67,7 @@ class Components extends React.Component {
                   <h3 className={classes.subtitle}>
                     Naturally Cleaning Your Home
                   </h3>
-                  <Button className={classes.bookbtn} type="button" color="primary" size= "lg" round>Book Now</Button>
+                  <Button className={classes.bookbtn} type="button" color="primary" size= "lg" round href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b">Book Now</Button>
                 </div>
               </GridItem>
             </GridContainer>

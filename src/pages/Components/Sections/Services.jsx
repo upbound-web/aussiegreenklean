@@ -4,14 +4,17 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 //import GridContainer from "components/Grid/GridContainer.jsx";
 //import GridItem from "components/Grid/GridItem.jsx";
-//import Button from "components/CustomButtons/Button.jsx";
+import Button from "components/CustomButtons/Button.jsx";
 //individual jss
 import servicesStyle from "assets/jss/material-kit-react/views/componentsSections/servicesStyle.jsx";
 //images
-import cleaningImg from "assets/img/clean.jpg"
-import residentialImg from "assets/img/residential_clean.jpg"
-import commercialImg from "assets/img/commercial_clean.jpg"
-import ironing from "assets/img/washing_clean.jpg"
+import domesticImg from "assets/img/domestic.jpeg";
+import commercialImg from "assets/img/commercial_clean.jpeg";
+import ironingImg from "assets/img/ironing.jpeg";
+import mowingImg from "assets/img/mowing.jpeg";
+import buildersImg from "assets/img/builders_clean.jpeg";
+import windowsImg from "assets/img/window_clean.jpeg";
+import rubbishImg from "assets/img/rubbish.jpeg";
 
 
 class Services extends React.Component {
@@ -23,14 +26,15 @@ class Services extends React.Component {
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={residentialImg} 
-                                    alt="Residential Clean"
+                                    src={domesticImg} 
+                                    alt="Domestic Clean"
                                 />
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Residential Cleaning</h2>
+                                    <h2>Domestic Cleaning</h2>
                                     <p>Lorem ipsum dolor, sat amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -43,15 +47,16 @@ class Services extends React.Component {
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Builders Clean</h2>
+                                    <h2>Commercial Clean</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={ironing} 
+                                    src={ironingImg} 
                                     alt="services1"
                                 />
                             </div>
@@ -59,20 +64,67 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Ironing and Washing</h2>
                                     <p>We offer lots of services they include x, y and z. What are your thoughts can you do it?</p>
+                                    <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
                                 <img
-                                    src={cleaningImg} 
+                                    src={mowingImg} 
                                     alt="services1"
                                 />
                             </div>
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
-                                    <h2>Commercial Cleaning</h2>
+                                    <h2>Mowing and Garden Maintenance</h2>
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={buildersImg} 
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Builders Clean</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={windowsImg} 
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Proffesional Window Clean</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.card}>
+                            <div className={classes.imgbx}>
+                                <img
+                                    src={rubbishImg}
+                                    alt="services1"
+                                />
+                            </div>
+                            <div className={classes.contentbx}>
+                                <div className={classes.content}>
+                                    <h2>Rubbish Removal</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <Button color= "primary"> Book Now </Button>    
                                 </div>
                             </div>
                         </div>
