@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+import Helmet from "react-helmet"
 // react components for routing our app without refresh
 //import { Link } from "gatsby";
 // @material-ui/core components
@@ -43,6 +44,10 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+        <Helmet>
+          <title>Aussie Green Clean</title>
+          <description>Taree and The Manning Great Lakes premier cleaning service. Offering an all natural cleaning service. We make our own cleaning products and make sure that there are no nasty chemicals in there. Offering Domestic cleaning, Commercial Cleaning, Ironing and Washing, window cleans, solar panel cleaning, builders clean, Mowing Lawn maintanance and rubbish removal </description>
+        </Helmet>
         <Header
           brand="Aussie Green Klean"
           rightLinks={<HeaderLinks />}
