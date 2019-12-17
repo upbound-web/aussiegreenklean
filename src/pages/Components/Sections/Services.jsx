@@ -8,15 +8,15 @@ import Button from "components/CustomButtons/Button.jsx";
 //individual jss
 import servicesStyle from "assets/jss/material-kit-react/views/componentsSections/servicesStyle.jsx";
 //images
-import domesticImg from "assets/img/domestic.jpeg";
-import commercialImg from "assets/img/commercial_clean.jpeg";
-import ironingImg from "assets/img/ironing.jpeg";
-import mowingImg from "assets/img/mowing.jpeg";
-import buildersImg from "assets/img/builders_clean.jpeg";
-import windowsImg from "assets/img/window_clean.jpeg";
-import rubbishImg from "assets/img/rubbish.jpeg";
-import solarImg from "assets/img/solar.jpeg";
-import leaseImg from "assets/img/lease_clean.jpeg";
+import domesticImg from "assets/img/domestic.jpg";
+import commercialImg from "assets/img/commercial_clean.jpg";
+import ironingImg from "assets/img/ironing.jpg";
+import mowingImg from "assets/img/mowing.jpg";
+import buildersImg from "assets/img/builders_clean.jpg";
+import windowsImg from "assets/img/window_clean.jpg";
+import rubbishImg from "assets/img/rubbish.jpg";
+import solarImg from "assets/img/solar.jpg";
+import leaseImg from "assets/img/lease_clean.jpg";
 
 
 class Services extends React.Component {
