@@ -33,6 +33,8 @@ class AboutUs extends React.Component {
                                     <h2>About Us</h2>
                                 </div>
                                 <p>Here at Aussie Green Klean there are few things that we are passionate about. Customer service and all natural cleaning products. We are now accepting bookings online, all you need to do is lift a finger. We offer all ranges of cleans from residential home to large commercial jobs</p>
+                                <p>Aussie Green Klean has a highly trained and dedicated team led by founder Garry Stephen, so you can rest easy knowing that your property is in good hands.</p>
+                                <p>Feedback from customers is always positive and they love the clean results, the natural fragrance the product leaves behind, and love the fact that it was natural, environmentally friendly and 100% Australian.</p>
                             </div>
                             <div className={classes.buttonscont}>
                                 <Button color="primary" round href="#contact">Book Residential</Button>

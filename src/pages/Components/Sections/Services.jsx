@@ -35,7 +35,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Domestic Cleaning</h2>
-                                    <p>Lorem ipsum dolor, sat amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Have one of our highly skilled team come out to your home and give you a professional clean leaving the home sparkling. </p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Commercial Clean</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Have one of our fast and efficient team come to your office or work site to get it sparkling, from spring cleans to regular cleaning services we have you covered.</p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Ironing and Washing</h2>
-                                    <p>We offer lots of services they include x, y and z. What are your thoughts can you do it?</p>
+                                    <p>Need ironing, washing, changing the sheets, making beds? Any sort of house keeping to make your life simpler. Let us take care of it for you</p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Mowing and Garden Maintenance</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Mowing, weeding, pruning, wiper snipping, green waste removed. A regular service or just the once</p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Builders Clean</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Builders / Contractors need your site cleaned to handover to the owner? A home, block of units or major construction, we hand your site over to your customers requirements.</p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Proffesional Window Clean</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Have one of our highly skilled team come out to your home or office & give your windows a professional clean leaving them sparkling. </p>
                                     <Button color= "primary"> Book Now </Button>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Rubbish Removal</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>We remove rubbish, whatever you need gone we will remove it for you. We will take care of everything for you.</p>
                                     <Button color= "primary"> Book Now </Button>    
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>Solar Panel Clean</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>You often wont realise how dirty your solar pannels are and the effect that can have on their efficiency. Let us make sure they are sparkling and working at maximum efficiency</p>
                                     <Button color= "primary"> Book Now </Button>    
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ class Services extends React.Component {
                             <div className={classes.contentbx}>
                                 <div className={classes.content}>
                                     <h2>End of Lease Clean</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vitae temporibus tenetur, iusto at blanditiis, animi aliquam eaque quos, dolor aspernatur voluptas laboriosam. Ad fugiat ex, labore libero eos sequi!</p>
+                                    <p>Want to make sure your place is sparkling before you hand the keys back to the rental agent. Dont risk it. Book us in to take care of it for you.</p>
                                     <Button color= "primary"> Book Now </Button>    
                                 </div>
                             </div>
