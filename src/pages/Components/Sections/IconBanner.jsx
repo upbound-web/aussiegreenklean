@@ -8,7 +8,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import iconBannerStyle from "assets/jss/material-kit-react/views/componentsSections/iconBannerStyle.jsx";
 //images
 import aussieImg from "assets/img/australia.svg";
-import ndisImg from "assets/img/ndis.png";
+import ndisImg from "assets/img/ndis_approved.png";
 import allNaturalImg from "assets/img/all_natural.png"
 
 class IconBanner extends React.Component {
