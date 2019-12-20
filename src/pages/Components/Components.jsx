@@ -33,6 +33,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import AboutUs from "./Sections/AboutUs.jsx"
 import Services from "./Sections/Services.jsx"
 import ContactUs from "./Sections/ContactUs.jsx"
+import IconBanner from "./Sections/IconBanner.jsx"
 
 //images
 import koala from "assets/img/agkkoala.png"
@@ -81,6 +82,7 @@ class Components extends React.Component {
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <AboutUs />
+          <IconBanner />
           <Services />
           <ContactUs />
           {/*

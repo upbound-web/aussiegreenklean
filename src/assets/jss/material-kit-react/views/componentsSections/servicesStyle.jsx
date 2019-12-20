@@ -1,7 +1,7 @@
 
 const aboutUsStyle = {
     sections: {
-        paddingTop: "100px"
+        paddingTop: "75px"
     },
     cardContainer: {
         position: "relative",

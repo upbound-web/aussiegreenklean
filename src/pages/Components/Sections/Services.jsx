@@ -96,7 +96,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Builders Clean</h2>
                                     <p>Builders / Contractors need your site cleaned to handover to the owner? A home, block of units or major construction, we hand your site over to your customers requirements.</p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button 
+                                    href= "https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#86fa7014-e2ec-4587-b230-422c96feda7b" 
+                                    color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
