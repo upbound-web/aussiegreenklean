@@ -124,6 +124,15 @@ const aboutUsStyle = {
 
             }
         }
+    },
+    header:{
+        textAlign: "center",
+    },
+    desc:{
+        margin: "0 auto",
+        textAlign: "center",
+        maxWidth: "700px",
+        padding: "0 30px"
     }
 }
 

@@ -14,6 +14,8 @@ import { Apps, CloudDownload } from "@material-ui/icons";
 
 // React icons
 import { FaFacebook } from 'react-icons/fa';
+import { MdLocalPhone } from "react-icons/md";
+
 
 // core components
 import Button from "components/CustomButtons/Button.jsx";
@@ -54,7 +56,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <Button
         color="transparent"
-        href="#contact"
+        href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
         outline
         className={classes.navLink}
         >
@@ -75,6 +77,22 @@ function HeaderLinks({ ...props }) {
             className={classes.navLink}
           >
             <FaFacebook/> Facebook
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="call-garry"
+          title="Call Garry"
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="tel:+61408775286"
+            className={classes.navLink}
+          >
+            <MdLocalPhone/> Call
           </Button>
         </Tooltip>
       </ListItem>

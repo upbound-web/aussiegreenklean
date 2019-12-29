@@ -37,8 +37,18 @@ class AboutUs extends React.Component {
                                 <p>Feedback from customers is always positive and they love the clean results, the natural fragrance the product leaves behind, and love the fact that it was natural, environmentally friendly and 100% Australian.</p>
                             </div>
                             <div className={classes.buttonscont}>
-                                <Button color="primary" round href="#contact">Book Residential</Button>
-                                <Button color="info" round>Contact Commercial</Button>
+                                <Button 
+                                    color="primary" 
+                                    round 
+                                    href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#25b2c9b8-2042-4f95-851d-2586c7e6e5eb">
+                                        Book Domestic
+                                </Button>
+                                <Button 
+                                href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#3372478c-a8bd-4279-a8b0-e2674a3c374b"
+                                color="info" 
+                                round>
+                                    Book Commercial
+                                </Button>
                             </div>
                         </GridItem>
                     </GridContainer>

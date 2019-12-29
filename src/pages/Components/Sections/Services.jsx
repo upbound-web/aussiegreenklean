@@ -24,6 +24,8 @@ class Services extends React.Component {
         const { classes } = this.props;
         return (
             <div className={classes.sections} id="services">
+                <h2 className={classes.header}>Services</h2>
+                <p className={classes.desc}>Here is a brief list of the services we offer. Please note that they are not limited to this so if you are wanting to know more please contact using the below form or give us a message on facebook.</p>
                     <div className={classes.cardContainer}>
                         <div className={classes.card}>
                             <div className={classes.imgbx}>
@@ -36,7 +38,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Domestic Cleaning</h2>
                                     <p>Have one of our highly skilled team come out to your home and give you a professional clean leaving the home sparkling. </p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button 
+                                    href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#25b2c9b8-2042-4f95-851d-2586c7e6e5eb" 
+                                    color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +55,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Commercial Clean</h2>
                                     <p>Have one of our fast and efficient team come to your office or work site to get it sparkling, from spring cleans to regular cleaning services we have you covered.</p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button
+                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#3372478c-a8bd-4279-a8b0-e2674a3c374b"
+                                     color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +72,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Ironing and Washing</h2>
                                     <p>Need ironing, washing, changing the sheets, making beds? Any sort of house keeping to make your life simpler. Let us take care of it for you</p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button 
+                                    href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#68d3e6e2-8c20-454a-b9a0-cd9cb02a496b"
+                                    color= "primary"> Book Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +105,7 @@ class Services extends React.Component {
                                     <h2>Builders Clean</h2>
                                     <p>Builders / Contractors need your site cleaned to handover to the owner? A home, block of units or major construction, we hand your site over to your customers requirements.</p>
                                     <Button 
-                                    href= "https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#86fa7014-e2ec-4587-b230-422c96feda7b" 
+                                    href= "https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b#b6f038cd-8a2b-443a-8452-8e9b47c66c8b" 
                                     color= "primary"> Book Now </Button>
                                 </div>
                             </div>
