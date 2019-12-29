@@ -89,7 +89,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Mowing and Garden Maintenance</h2>
                                     <p>Mowing, weeding, pruning, wiper snipping, green waste removed. A regular service or just the once</p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button 
+                                    href="#contact"
+                                    color= "primary"> Contact Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +123,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Proffesional Window Clean</h2>
                                     <p>Have one of our highly skilled team come out to your home or office & give your windows a professional clean leaving them sparkling. </p>
-                                    <Button color= "primary"> Book Now </Button>
+                                    <Button 
+                                    href="#contact"
+                                    color= "primary"> Contact Now </Button>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +140,12 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Rubbish Removal</h2>
                                     <p>We remove rubbish, whatever you need gone we will remove it for you. We will take care of everything for you.</p>
-                                    <Button color= "primary"> Book Now </Button>    
+                                    <Button 
+                                    href="#contact"
+                                    color= "primary"
+                                    > 
+                                        Contact Now 
+                                    </Button>    
                                 </div>
                             </div>
                         </div>
@@ -151,7 +160,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>Solar Panel Clean</h2>
                                     <p>You often wont realise how dirty your solar pannels are and the effect that can have on their efficiency. Let us make sure they are sparkling and working at maximum efficiency</p>
-                                    <Button color= "primary"> Book Now </Button>    
+                                    <Button 
+                                    href="#contact"
+                                    color= "primary"> Contact Now </Button>    
                                 </div>
                             </div>
                         </div>
@@ -166,7 +177,9 @@ class Services extends React.Component {
                                 <div className={classes.content}>
                                     <h2>End of Lease Clean</h2>
                                     <p>Want to make sure your place is sparkling before you hand the keys back to the rental agent. Dont risk it. Book us in to take care of it for you.</p>
-                                    <Button color= "primary"> Book Now </Button>    
+                                    <Button 
+                                    href="#contact"
+                                    color= "primary"> Contact Now </Button>    
                                 </div>
                             </div>
                         </div>
