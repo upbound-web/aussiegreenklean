@@ -24,7 +24,7 @@ class ContactSection extends React.Component {
               <h4 className={classes.description}>
                 If you havent found what you are looking for yet, or would like any info about the services we provide. Dont hesitate to get in contact Via the form, facebook or give us a call.
               </h4>
-              <form name="contact" method="POST" netlify> 
+              <form name="contact" method="POST" data-netlify="true"> 
                 <GridContainer>
                   <GridItem xs={12} sm={12} md={6}>
                     <CustomInput
