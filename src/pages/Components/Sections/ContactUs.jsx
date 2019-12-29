@@ -29,6 +29,7 @@ class ContactSection extends React.Component {
                 <GridContainer>
                   <GridItem xs={12} sm={12} md={6}>
                     <CustomInput
+                      name="name"
                       labelText="Your Name"
                       id="name"
                       formControlProps={{
@@ -38,6 +39,7 @@ class ContactSection extends React.Component {
                   </GridItem>
                   <GridItem xs={12} sm={12} md={6}>
                     <CustomInput
+                      name="email"
                       labelText="Your Email"
                       id="email"
                       formControlProps={{
@@ -46,6 +48,7 @@ class ContactSection extends React.Component {
                     />
                   </GridItem>
                   <CustomInput
+                  name="message"
                     labelText="Your Message"
                     id="message"
                     formControlProps={{
