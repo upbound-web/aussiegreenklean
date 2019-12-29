@@ -24,7 +24,7 @@ class ContactSection extends React.Component {
               <h4 className={classes.description}>
                 If you havent found what you are looking for yet, or would like any info about the services we provide. Dont hesitate to get in contact Via the form, facebook or give us a call.
               </h4>
-              <form>
+              <form name="contact" method="POST" netlify> 
                 <GridContainer>
                   <GridItem xs={12} sm={12} md={6}>
                     <CustomInput
@@ -63,7 +63,7 @@ class ContactSection extends React.Component {
                       md={4}
                       className={classes.textCenter}
                     >
-                      <Button color="primary">Send Message</Button>
+                      <Button color="primary" type="submit">Send Message</Button>
                     </GridItem>
                   </GridContainer>
                 </GridContainer>
