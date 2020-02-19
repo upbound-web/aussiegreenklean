@@ -40,7 +40,7 @@ class Services extends React.Component {
                                     <p>Have one of our highly skilled team come out to your home and give you a professional clean leaving the home sparkling. </p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b" 
-                                    color= "primary"> Book Now </Button>
+                                    color= "primary"> Book Domestic </Button>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ class Services extends React.Component {
                                     <p>Have one of our fast and efficient team come to your office or work site to get it sparkling, from spring cleans to regular cleaning services we have you covered.</p>
                                     <Button
                                      href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                     color= "primary"> Book Now </Button>
+                                     color= "primary"> Book Commercial</Button>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ class Services extends React.Component {
                                     <p>Need ironing, washing, changing the sheets, making beds? Any sort of house keeping to make your life simpler. Let us take care of it for you</p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                    color= "primary"> Book Now </Button>
+                                    color= "primary"> Book Washing </Button>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ class Services extends React.Component {
                                     <p>Mowing, weeding, pruning, wiper snipping, green waste removed. A regular service or just the once</p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                    color= "primary"> Book Now </Button>
+                                    color= "primary"> Book Mowing </Button>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ class Services extends React.Component {
                                     <p>Builders / Contractors need your site cleaned to handover to the owner? A home, block of units or major construction, we hand your site over to your customers requirements.</p>
                                     <Button 
                                     href= "https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b" 
-                                    color= "primary"> Book Now </Button>
+                                    color= "primary"> Book Builders Clean </Button>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ class Services extends React.Component {
                                     <p>Have one of our highly skilled team come out to your home or office & give your windows a professional clean leaving them sparkling. </p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                    color= "primary"> Book Now </Button>
+                                    color= "primary"> Book Window Clean </Button>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ class Services extends React.Component {
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
                                     color= "primary"
                                     > 
-                                        Book Now 
+                                        Book Rubbish Removal 
                                     </Button>    
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ class Services extends React.Component {
                                     <p>You often wont realise how dirty your solar pannels are and the effect that can have on their efficiency. Let us make sure they are sparkling and working at maximum efficiency</p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                    color= "primary"> Book Now </Button>    
+                                    color= "primary"> Book Solar Clean </Button>    
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@ class Services extends React.Component {
                                     <p>Want to make sure your place is sparkling before you hand the keys back to the rental agent. Dont risk it. Book us in to take care of it for you.</p>
                                     <Button 
                                     href="https://book.servicem8.com/request_service_booking?strVendorUUID=f588290e-1fea-44d5-b231-2dfe4adc487b"
-                                    color= "primary"> Book Now </Button>    
+                                    color= "primary"> Book End of Lease Clean </Button>    
                                 </div>
                             </div>
                         </div>
