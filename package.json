@@ -35,7 +35,7 @@
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-transformer-sharp": "^2.3.9",
     "history": "^4.7.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "nouislider": "^13.1.1",
     "react": "^16.8.4",
     "react-datetime": "^2.16.3",
